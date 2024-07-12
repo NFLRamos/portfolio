@@ -1,0 +1,30 @@
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+
+    background: linear-gradient(122deg, rgba(13,12,12,1) 95%, rgba(34,33,33,1) 100%);
+}
+.wrap__menu{
+    font-size: 26px;
+    padding:20px;
+    /*a:hover{
+        border-left: 4px solid white;
+        width: 100%;
+        display: block;
+    }*/
+    .active{
+    border-left: 4px solid #00F8F8;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    color:#00F8F8;
+    }
+}
+.icons__wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px;
+}

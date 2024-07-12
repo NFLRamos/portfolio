@@ -1,0 +1,84 @@
+.slick-container {
+  width: 100%; /* Ajusta a largura conforme necessário */
+  overflow: hidden; /* Esconde o excesso de conteúdo */
+  box-sizing: border-box; /* Inclui padding e border na largura e altura */
+  padding: 0 15px; /* Opcional: ajuste de padding */
+}
+
+.slick-slider {
+  width:90%;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+
+  .slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position:absolute;
+  }
+
+  .slick-track {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; /* Garante que os slides não quebrem para a próxima linha */
+    width: 100%;
+  }
+
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Ajuste a altura conforme necessário */
+    box-sizing: border-box;
+    outline: none;
+    flex: 0 0 auto;
+    width: 33.3333%; /* 100% dividido pelo número de slides a serem mostrados */
+  }
+}
+
+.slick-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Cor de fundo */
+  border: 1px solid #ccc; /* Bordas para visualização */
+  height: 200px; /* Ajuste a altura conforme necessário */
+  box-sizing: border-box; /* Inclui padding e border na largura e altura */
+  width: 100%;
+  
+  p {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+.frame__icons{
+  margin-top:20px;
+  cursor:grab ;
+  img{
+    height:100px;
+    width:auto;
+    object-fit: contain;
+  }
+  height:150px;
+  width:auto;
+  p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #003E3E;
+    text-align: center;
+  }
+}
+
+  
+
+  
+  /* Verifique se não há regras que interfiram com o Slick */
+  
